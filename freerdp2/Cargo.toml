@@ -1,0 +1,12 @@
+[package]
+name = "freerdp2"
+description = "FreeRDP bindings"
+edition = "2021"
+version = "0.1.0"
+license = "Apache-2.0"
+
+[dependencies]
+freerdp2-sys = { version = "0.1", path = "../freerdp2-sys" }
+libc = "0.2.105"
+
+
